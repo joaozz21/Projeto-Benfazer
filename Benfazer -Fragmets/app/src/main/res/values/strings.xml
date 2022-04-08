@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">BenfazerProject</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="floatingActionButton">Adicionar Nova Tarefa</string>
+    <string name="insira_o_link_da_imagem">Insira o link da imagem</string>
+    <string name="dados_bancarios">Dados bancarios</string>
+    <string name="cnpj">CNPJ</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="valor_a_arrecadar">Valor a arrecadar</string>
+    <string name="descricao_da_atividade">Descricao da atividade</string>
+    <string name="nome_da_ong">Nome da ong</string>
+    <string name="doar">Doar</string>
+    <string name="valor">Valor</string>
+    <string name="quantidade">Quantidade</string>
+    <string name="nome_do_produto">Nome do Produto</string>
+    <string name="Editcadastrar">Editar Cadastro</string>
+    <string name="Delete">Deletar</string>
+    <string name="Benfazer">Benfazer</string>
+</resources>

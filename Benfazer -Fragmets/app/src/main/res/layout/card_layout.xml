@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="500dp"
+    android:layout_gravity="fill"
+    android:layout_margin="5dp"
+    android:elevation="2dp"
+    android:padding="8dp"
+    app:cardBackgroundColor="#00FFFFFF"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:padding="9dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/white"
+            android:backgroundTint="@color/white"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textProd"
+                android:layout_width="237dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/lato_bold"
+                android:textAlignment="center"
+                android:textColor="#90CAF9"
+                android:textSize="30sp"
+                tools:text="Produto" />
+
+            <ImageButton
+                android:id="@+id/editButton"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:background="#DEDEDE"
+                android:contentDescription="@string/Editcadastrar"
+                android:elevation="10dp"
+                android:minHeight="48dp"
+                app:srcCompat="@drawable/ic_baseline_edit_24"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <ImageButton
+                android:id="@+id/DelButton"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#DEDEDE"
+                android:contentDescription="@string/Delete"
+                android:elevation="10dp"
+                android:minHeight="48dp"
+                app:srcCompat="@drawable/ic_baseline_delete_outline_24"
+                tools:ignore="ImageContrastCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/ImageOng"
+            android:layout_width="369dp"
+            android:layout_height="156dp"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:scaleType="fitCenter" />
+
+        <TextView
+            android:id="@+id/textDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/white"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/lato_bold"
+            android:textAlignment="viewStart"
+            android:textColor="#90CAF9"
+            android:textSize="24sp"
+            tools:ignore="TextContrastCheck"
+            tools:text="Descrição: " />
+
+        <TextView
+            android:id="@+id/textCategoria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/white"
+            android:fontFamily="@font/lato_bold"
+            android:textAlignment="center"
+            android:textColor="#90CAF9"
+            android:textSize="24sp"
+            tools:ignore="TextContrastCheck"
+            tools:text="Categoria: " />
+
+        <TextView
+            android:id="@+id/textQuant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/white"
+            android:fontFamily="@font/lato_bold"
+            android:textAlignment="center"
+            android:textColor="#90CAF9"
+            android:textSize="24sp"
+            tools:ignore="TextContrastCheck"
+            tools:text="qt" />
+
+        <TextView
+            android:id="@+id/textValor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/white"
+            android:fontFamily="@font/lato_bold"
+            android:textAlignment="center"
+            android:textColor="#90CAF9"
+            android:textSize="30sp"
+            tools:ignore="TextContrastCheck"
+            tools:text="R$" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

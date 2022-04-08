@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/listFragment">
+
+    <fragment
+        android:id="@+id/listFragment"
+        android:name="com.generation.benfazerproject.ListFragment"
+        android:label="fragment_list"
+        tools:layout="@layout/fragment_list" >
+        <action
+            android:id="@+id/action_listFragment_to_formularioFragment"
+            app:destination="@id/formularioFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/formularioFragment"
+        android:name="com.generation.benfazerproject.FormularioFragment"
+        android:label="fragment_formulario"
+        tools:layout="@layout/fragment_formulario" >
+        <action
+            android:id="@+id/action_formularioFragment_to_listFragment"
+            app:destination="@id/listFragment" />
+    </fragment>
+</navigation>
