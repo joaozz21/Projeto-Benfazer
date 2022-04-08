@@ -7,7 +7,7 @@
 ![BENFAZER (16)](https://user-images.githubusercontent.com/74657202/162501970-08fc46d7-e070-41f9-a695-f06753ef40b0.png)
 
 
-<h4>💻 Sobre o projeto:</h4>
+<h4>📲 Sobre o projeto:</h4>
 
 Projeto final do curso Desenvolvimento Mobile - Kotlin Java da Generation Brasil.
 
