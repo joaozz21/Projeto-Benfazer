@@ -63,4 +63,6 @@ Nele simulamos o sistema de um aplicativo e-commerce que tem como intuito conect
 <h4>🔈Agradecimentos:</h4>
 Esse projeto só foi possível graças a todo o ensinamento, apoio e orientação que adquirimos durante o Bootcamp Desenvolvedor Mobile-Java da Generation Brasil. Agradeçemos especialmente aos professores Henrique e Liza que sempre nos ajudaram e nos motivaram até nos bugs mais difíceis.
 
-Obrigada!
+Obrigado!
+
+
