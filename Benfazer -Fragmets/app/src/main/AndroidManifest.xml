@@ -13,18 +13,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Splash">
         <activity
-            android:name=".LoginActivity"
-            android:exported="true" >
+            android:name=".EnterActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true"/>
         <activity
             android:name=".MainActivity"
-            android:exported="true"/>
+            android:exported="true" />
 
         <meta-data
             android:name="preloaded_fonts"

@@ -49,8 +49,8 @@ class Adapter(
         val produto = listProduto[position]
         holder.textProd.text = produto.nomeMarca
         holder.textDesc.text = produto.descricao
-        holder.textValor.text = "R$"+produto.valor.toString()
-        holder.textQuant.text = "Quantidade: "+produto.quantidade.toString()
+        holder.textValor.text = "R$ ${"%.2f".format(listProduto[position].valor)}"
+        holder.textQuant.text = "Qt: "+produto.quantidade.toString()
         holder.textCategoria.text = produto.categoria.descricao
 
         // Inserindo Link da Imagem
