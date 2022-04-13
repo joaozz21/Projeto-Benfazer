@@ -7,9 +7,9 @@
     <application
         android:name=".ProjetoBenfazerApplication"
         android:allowBackup="true"
-        android:icon="@mipmap/icon"
+        android:icon="@mipmap/new_icon"
         android:label="@string/Benfazer"
-        android:roundIcon="@mipmap/icon"
+        android:roundIcon="@mipmap/new_icon_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Splash">
         <activity

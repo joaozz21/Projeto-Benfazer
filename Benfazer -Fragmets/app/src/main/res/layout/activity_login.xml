@@ -21,8 +21,8 @@
 
     <ImageView
         android:id="@+id/imageLogo"
-        android:layout_width="414dp"
-        android:layout_height="279dp"
+        android:layout_width="413dp"
+        android:layout_height="230dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="4dp"
         android:layout_marginEnd="20dp"
@@ -38,7 +38,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="80dp"
-        android:layout_marginTop="72dp"
+        android:layout_marginTop="150dp"
         android:layout_marginEnd="20dp"
         android:ems="10"
         android:hint="Email"
@@ -54,7 +54,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="84dp"
+        android:layout_marginTop="77dp"
         android:layout_marginEnd="85dp"
         android:ems="10"
         android:hint="Senha"
