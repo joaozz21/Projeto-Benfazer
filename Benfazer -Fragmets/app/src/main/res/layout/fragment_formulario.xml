@@ -52,7 +52,7 @@
         android:backgroundTint="#90CAF9"
         android:ems="10"
         android:fontFamily="@font/lato_bold"
-        android:hint="@string/descricao_da_atividade"
+        android:hint="Descrição da cesta"
         android:inputType="textPersonName"
         android:minHeight="48dp"
         android:textColorHint="#78909C"
